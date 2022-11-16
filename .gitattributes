@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+#* text=auto
+
+* linguist-vendored
+*.frm linguist-vendored=false
+*.frx linguist-vendored=false
+*.cls linguist-vendored=false
+*.bas linguist-vendored=false
